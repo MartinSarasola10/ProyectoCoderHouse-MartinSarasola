@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pagina__entera {
+
+    font-family: rubik;
+    background-image: url();
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "aside"
+    "footer"
+    ;
+    grid-gap: 20px;
+}
+/*
+.barra__menu {
+    grid-area: nav;
+    padding: 0;
+    border: solid black 2px;
+}
+.barra__navegador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+.logo {
+    align-items: center;
+}
+.menuNavegador {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;   
+}
+.menuNavegador a{
+    margin: 0 5px;
+    border: solid black 2px;
+    text-decoration: none;
+}
+.NombresMenu {
+    padding: 0 8px; 
+}
+.nombre__agencia {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 50px 20px;
+    margin: 0px;
+    text-align: center;
+    border: solid black 2px;
+}
+.seccion__primera {
+    grid-area: main;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+    font-family: rubik;
+    border: solid black 2px;
+    padding: 0px 20px 50px 20px;
+}
+.primer__nota {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+div p {
+    max-width: 90%;
+    padding: 0;
+}
+.parrafos {
+
+    text-align: center;
+    justify-content: center ;
+}
+.galeria {
+    display: block;
+    flex-flow: row wrap;
+}
+.galeriaQS {
+    display: flex;
+    display: block;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 2rem;
+}
+.seccion__segunda {
+    grid-area: aside;
+    border: solid black 2px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+}
+.segunda__nota {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-family: rubik;
+}
+.pie__pagina {
+    grid-area: footer;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    border: solid black 2px;
+    padding-top: 20px;
+}
+.primer__titulo {
+    display: flex;
+    justify-content: center;
+    font-family: rubik;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* --- Media Queries --- */
+/*
+@media screen and (min-width: 768px) {
+    .pagina__entera {
+        display: grid;
+        grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "main main main"
+        "aside aside aside"
+        "footer footer footer"
+        ;
+        grid-gap: 20px;
+    }
+    .barra__menu {
+        border: solid black 2px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .barra__navegador {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo {
+        padding-left: 3rem;
+    }
+    .primer__imagen {
+        max-width: 700px;
+    }
+    .galeria {
+        flex-flow: row;
+    }
+    .galeria img {
+        max-width: 30%;
+    }
+    .galeriaQS {
+        flex-flow: row;
+    }
+    .galeriaQS img {
+        padding: .5rem;
+        max-width: 30%;
+        justify-content: space-evenly;
+    }
+    p {
+        max-width: 90%;
+    }
+    .video {
+        width: 90%;
+        height: 90%;
+    }
+}
