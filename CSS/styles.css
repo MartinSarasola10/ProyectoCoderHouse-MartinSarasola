@@ -6,18 +6,15 @@
     box-sizing: border-box;
 }
 .pagina__entera {
-
-    font-family: rubik;
     background-image: url();
-    display: grid;
-    grid-template-areas:
-    "nav"
-    "header"
-    "main"
-    "aside"
-    "footer"
-    ;
-    grid-gap: 20px;
+    font-family: rubik;
+}
+.nombres_menu div:hover {
+    filter: ;
+}
+.nombres_menu div a:hover {
+    transform: translateY(-3px) scale(1);
+    filter: none;
 }
 /*
 .barra__menu {
