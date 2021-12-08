@@ -48,6 +48,114 @@
     filter: none;
 }
 
+.container-grid {
+    display: grid;
+    gap: .5rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "primera segunda cuarta quinta"
+    "primera tercera cuarta quinta"
+    "septima septima cuarta sexta"
+    "septima septima cuarta sexta";
+    }
+
+.primera { 
+    grid-area: primera; 
+    border: solid 10px;
+    padding: 100px;
+    margin: 10px;
+}
+.segunda { 
+    grid-area: segunda; 
+    border: solid 10px;
+    padding: 100px;
+    margin: 10px;
+}
+.tercera { 
+    grid-area: tercera; 
+    border: solid 10px;
+    padding: 100px;
+    margin: 10px;
+}
+.cuarta { 
+    grid-area: cuarta; 
+    border: solid 10px;
+    padding: 100px;
+    margin: 10px;
+}
+
+.quinta { 
+    grid-area: quinta; 
+    border: solid 10px;
+    padding: 100px;
+    margin: 10px;
+}
+
+.sexta { 
+    grid-area: sexta; 
+    border: solid 10px;
+    margin: 10px;
+    padding: 100px;
+}
+
+.septima { 
+    grid-area: septima; 
+    border: solid 10px;
+    padding: 100px;
+    margin: 10px;
+}
+
+/* --- Media Queries --- */
+@media screen and (max-width: 768px) {
+    .container-grid {
+        
+        grid-template-areas:
+        "primera segunda"
+        "primera tercera"
+        "septima septima"
+        "septima septima"
+        "cuarta quinta"
+        "cuarta quinta"
+        "cuarta sexta"
+        "cuarta sexta";
+        }
+/*
+    .primera {
+        border: solid 10px;
+        padding: 50%;
+        margin: 50%;
+        }
+    .segunda {
+        border: solid 10px;
+        padding: 50px;
+        margin: 10px;
+        }
+    .tercera {
+        border: solid 10px;
+        padding: 50%;
+        margin: 50%;
+        }
+    .cuarta {
+        border: solid 10px;
+        padding: 50%;
+        margin: 50%;
+        }
+    .quinta {
+        border: solid 10px;
+        padding: 50%;
+        margin: 50%;
+        }
+    .sexta {
+        border: solid 10px;
+        padding: 50%;
+        margin: 50%;
+        } 
+    .septima {
+        border: solid 10px;
+        padding: 50%;
+        margin: 50%;
+        }  
+}
 
 /*
 .barra__menu {
