@@ -57,47 +57,47 @@
 .primera { 
     grid-area: primera; 
     border: solid 10px;
-    padding: 100px;
-    margin: 10px;
+    padding: .5rem;
+    margin: .2rem;
 }
 .segunda { 
     grid-area: segunda; 
     border: solid 10px;
-    padding: 100px;
-    margin: 10px;
+    padding: .5rem;
+    margin: .2rem;
 }
 .tercera { 
     grid-area: tercera; 
     border: solid 10px;
-    padding: 100px;
-    margin: 10px;
+    padding: .5rem;
+    margin: .2rem;
 }
 .cuarta { 
     grid-area: cuarta; 
     border: solid 10px;
-    padding: 100px;
-    margin: 10px;
+    padding: .5rem;
+    margin: .2rem;
 }
 
 .quinta { 
     grid-area: quinta; 
     border: solid 10px;
-    padding: 100px;
-    margin: 10px;
+    padding: .5rem;
+    margin: .2rem;
 }
 
 .sexta { 
     grid-area: sexta; 
     border: solid 10px;
-    margin: 10px;
-    padding: 100px;
+    padding: .5rem;
+    margin: .2rem;
 }
 
 .septima { 
     grid-area: septima; 
     border: solid 10px;
-    padding: 100px;
-    margin: 10px;
+    padding: .5rem;
+    margin: .2rem;
 }
 
 /* --- Media Queries --- */
@@ -113,6 +113,36 @@
         "cuarta sexta"
         "cuarta sexta";
         }
+    .primera {
+        margin: 0%;
+        padding: 2%;
+    }
+    .segunda {
+        margin: 0%;
+        padding: 2%;
+    }
+    .tercera {
+        margin: 0%;
+        padding: 2%;
+    }
+    .cuarta {
+        margin: 0%;
+        padding: 2%;
+    }
+    .quinta {
+        margin: 0%;
+        padding: 2%;
+    }
+    .sexta {
+        margin: 0%;
+        padding: 2%;
+    }
+    .septima {
+        margin: 0%;
+        padding: 2%;
+    }
+    }
+
 /*
     .primera {
         border: solid 10px;
