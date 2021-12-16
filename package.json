@@ -1,0 +1,19 @@
+{
+  "name": "proyectocoderhouse-martinsarasola",
+  "version": "1.0.0",
+  "description": "Proyecto Desarrollo Web - Agencia M&amp;F",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinSarasola10/ProyectoCoderHouse-MartinSarasola.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinSarasola10/ProyectoCoderHouse-MartinSarasola/issues"
+  },
+  "homepage": "https://github.com/MartinSarasola10/ProyectoCoderHouse-MartinSarasola#readme"
+}
