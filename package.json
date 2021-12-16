@@ -4,7 +4,10 @@
   "description": "Proyecto Desarrollo Web - Agencia M&amp;F",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/MartinSarasola10/ProyectoCoderHouse-MartinSarasola/issues"
   },
-  "homepage": "https://github.com/MartinSarasola10/ProyectoCoderHouse-MartinSarasola#readme"
+  "homepage": "https://github.com/MartinSarasola10/ProyectoCoderHouse-MartinSarasola#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
