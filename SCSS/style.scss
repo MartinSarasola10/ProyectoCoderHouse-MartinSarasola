@@ -1,6 +1,6 @@
 @import "base/variables";
-@import "globales";
-@import "pages/index";
-@import "components/header";
+@import "base/root";
 @import "components/footer";
-@import "mediaqueries"
+@import "components/header";
+@import "pages/servicios";
+@import "components/mediaqueries";

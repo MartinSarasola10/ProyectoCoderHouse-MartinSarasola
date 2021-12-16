@@ -1,0 +1,42 @@
+/* --- Media Queries --- */
+@media screen and (max-width: 768px) {
+    .container-grid {
+        grid-template-areas:
+        "primera segunda"
+        "primera tercera"
+        "septima septima"
+        "septima septima"
+        "cuarta quinta"
+        "cuarta quinta"
+        "cuarta sexta"
+        "cuarta sexta";
+        }
+        .primera {
+            margin: 0%;
+            padding: 2%;
+        }
+        .segunda {
+            margin: 0%;
+            padding: 2%;
+        }
+        .tercera {
+            margin: 0%;
+            padding: 2%;
+        }
+        .cuarta {
+            margin: 0%;
+            padding: 2%;
+        }
+        .quinta {
+            margin: 0%;
+            padding: 2%;
+        }
+        .sexta {
+            margin: 0%;
+            padding: 2%;
+        }
+        .septima {
+            margin: 0%;
+            padding: 2%;
+        }
+}
