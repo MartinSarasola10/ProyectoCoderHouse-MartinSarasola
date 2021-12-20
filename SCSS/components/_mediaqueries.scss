@@ -39,4 +39,15 @@
             margin: 0%;
             padding: 2%;
         }
+    .container-clientes {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "primera segunda"
+        "tercera cuarta"
+        "quinta sexta"
+        "septima octava"
+        "novena decima"
+        "depri deseg";
+    }
 }

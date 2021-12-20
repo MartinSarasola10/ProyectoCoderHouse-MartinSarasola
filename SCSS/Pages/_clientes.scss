@@ -1,0 +1,85 @@
+.container-clientes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    margin: 1rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "primera segunda tercera"
+        "cuarta quinta sexta"
+        "septima octava novena"
+        "decima depri deseg";
+        .primera {
+            grid-area: primera;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .segunda {
+            grid-area: segunda;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .tercera {
+            grid-area: tercera;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .cuarta {
+            grid-area: cuarta;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .quinta {
+            grid-area: quinta;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .sexta {
+            grid-area: sexta;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .septima {
+            grid-area: septima;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .octava {
+            grid-area: octava;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .novena {
+            grid-area: novena;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .decima {
+            grid-area: decima;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .deseg {
+            grid-area: deseg;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+        .depri {
+            grid-area: depri;
+            border: solid 2px black;
+            padding: 3rem;
+            margin: 1rem;
+        }
+}

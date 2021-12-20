@@ -80,6 +80,78 @@ header .nombres__menu div a:hover {
     padding: .5rem;
     margin: .2rem; }
 
+.imagen-nosotros {
+  box-shadow: 3px 5px 5px 2px #00000033; }
+
+.container-clientes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  margin: 1rem;
+  grid-auto-flow: row;
+  grid-template-areas: "primera segunda tercera" "cuarta quinta sexta" "septima octava novena" "decima depri deseg"; }
+  .container-clientes .primera {
+    grid-area: primera;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+  .container-clientes .segunda {
+    grid-area: segunda;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+  .container-clientes .tercera {
+    grid-area: tercera;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+  .container-clientes .cuarta {
+    grid-area: cuarta;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+  .container-clientes .quinta {
+    grid-area: quinta;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+  .container-clientes .sexta {
+    grid-area: sexta;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+  .container-clientes .septima {
+    grid-area: septima;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+  .container-clientes .octava {
+    grid-area: octava;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+  .container-clientes .novena {
+    grid-area: novena;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+  .container-clientes .decima {
+    grid-area: decima;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+  .container-clientes .deseg {
+    grid-area: deseg;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+  .container-clientes .depri {
+    grid-area: depri;
+    border: solid 2px black;
+    padding: 3rem;
+    margin: 1rem; }
+
 /* --- Media Queries --- */
 @media screen and (max-width: 768px) {
   .container-grid {
@@ -104,4 +176,8 @@ header .nombres__menu div a:hover {
     padding: 2%; }
   .septima {
     margin: 0%;
-    padding: 2%; } }
+    padding: 2%; }
+  .container-clientes {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "primera segunda" "tercera cuarta" "quinta sexta" "septima octava" "novena decima" "depri deseg"; } }
