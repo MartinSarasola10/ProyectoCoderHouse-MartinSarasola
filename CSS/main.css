@@ -40,7 +40,7 @@ header .nombres__menu div a:hover {
 
 .container-grid {
   display: grid;
-  padding: 4%;
+  padding: 2%;
   gap: 1rem;
   grid-auto-flow: row;
   grid-template-areas: "primera segunda cuarta quinta" "primera tercera cuarta quinta" "septima septima cuarta sexta" "septima septima cuarta sexta"; }
