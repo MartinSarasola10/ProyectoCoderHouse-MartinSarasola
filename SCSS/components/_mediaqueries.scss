@@ -1,6 +1,7 @@
 /* --- Media Queries --- */
 @media screen and (max-width: 768px) {
     .container-grid {
+        gap: 0;
         grid-template-areas:
         "primera segunda"
         "primera tercera"
@@ -14,30 +15,37 @@
         .primera {
             margin: 0%;
             padding: 2%;
+            border: solid .4rem black;
         }
         .segunda {
             margin: 0%;
             padding: 2%;
+            border: solid .4rem black;
         }
         .tercera {
             margin: 0%;
             padding: 2%;
+            border: solid .4rem black;
         }
         .cuarta {
             margin: 0%;
             padding: 2%;
+            border: solid .4rem black;
         }
         .quinta {
             margin: 0%;
             padding: 2%;
+            border: solid .4rem black;
         }
         .sexta {
             margin: 0%;
             padding: 2%;
+            border: solid .4rem black;
         }
         .septima {
             margin: 0%;
             padding: 2%;
+            border: solid .4rem black;
         }
     .container-clientes {
         grid-template-columns: 1fr 1fr;

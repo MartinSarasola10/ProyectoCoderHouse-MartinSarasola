@@ -1,10 +1,11 @@
 header {
-    .nombres__menu {
-        div {
-            a:hover {
-                transform: translateY(-3px) scale(1);
-                filter: none;
-                }
-            }
-        }
+    position: sticky;
+    top: 0%;
+}
+.nombres_menu {
+    a:hover {
+        transform: translateY(-3px) scale(1.15);
+        font-weight: bold;
+        filter: none;
     }
+}

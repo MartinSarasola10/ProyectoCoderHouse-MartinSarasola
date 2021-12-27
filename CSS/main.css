@@ -34,56 +34,60 @@ footer .redes-container {
         box-shadow: 0 5px 5px 0px #00000066;
         filter: none; }
 
-header .nombres__menu div a:hover {
-  transform: translateY(-3px) scale(1);
+header {
+  position: sticky;
+  top: 0%; }
+
+.nombres_menu a:hover {
+  transform: translateY(-3px) scale(1.15);
+  font-weight: bold;
   filter: none; }
+
+.titulo-agencia {
+  font-size: 4.5rem; }
+
+.fondo-stripes {
+  border: solid #dbae1a 1px;
+  background-image: repeating-linear-gradient(135deg, #ecbe28 0px, #FECB22 20px, #fbfaf6 20px, #e0dfd8 40px); }
 
 .container-grid {
   display: grid;
   padding: 2%;
-  gap: 1rem;
+  margin-bottom: .5rem;
+  gap: .5rem;
   grid-auto-flow: row;
   grid-template-areas: "primera segunda cuarta quinta" "primera tercera cuarta quinta" "septima septima cuarta sexta" "septima septima cuarta sexta"; }
-  .container-grid .primera {
-    grid-area: primera;
-    border: solid 10px;
-    padding: .5rem;
-    margin: .2rem; }
-  .container-grid .segunda {
-    grid-area: segunda;
-    border: solid 10px;
-    padding: .5rem;
-    margin: .2rem; }
-  .container-grid .tercera {
-    grid-area: tercera;
-    border: solid 10px;
-    padding: .5rem;
-    margin: .2rem; }
-  .container-grid .cuarta {
-    grid-area: cuarta;
-    border: solid 10px;
-    padding: .5rem;
-    margin: .2rem; }
-  .container-grid .quinta {
-    grid-area: quinta;
-    border: solid 10px;
-    padding: .5rem;
-    margin: .2rem; }
-  .container-grid .sexta {
-    grid-area: sexta;
-    border: solid 10px;
-    padding: .5rem;
-    margin: .2rem; }
+  .container-grid .primera,
+  .container-grid .segunda,
+  .container-grid .tercera,
+  .container-grid .cuarta,
+  .container-grid .quinta,
+  .container-grid .sexta,
   .container-grid .septima {
-    grid-area: septima;
-    border: solid 10px;
-    padding: .5rem;
+    border: solid .5rem black;
+    padding: .2rem;
     margin: .2rem; }
+  .container-grid .primera {
+    grid-area: primera; }
+  .container-grid .segunda {
+    grid-area: segunda; }
+  .container-grid .tercera {
+    grid-area: tercera; }
+  .container-grid .cuarta {
+    grid-area: cuarta; }
+  .container-grid .quinta {
+    grid-area: quinta; }
+  .container-grid .sexta {
+    grid-area: sexta; }
+  .container-grid .septima {
+    grid-area: septima; }
 
 .imagen-nosotros {
   box-shadow: 3px 5px 5px 2px #00000033; }
 
 .container-clientes {
+  border: solid #dbae1a 1px;
+  background-image: repeating-linear-gradient(135deg, #ecbe28 0px, #FECB22 20px, #fbfaf6 20px, #e0dfd8 40px);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -91,92 +95,80 @@ header .nombres__menu div a:hover {
   margin: 1rem;
   grid-auto-flow: row;
   grid-template-areas: "primera segunda tercera" "cuarta quinta sexta" "septima octava novena" "decima depri deseg"; }
-  .container-clientes .primera {
-    grid-area: primera;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
-  .container-clientes .segunda {
-    grid-area: segunda;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
-  .container-clientes .tercera {
-    grid-area: tercera;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
-  .container-clientes .cuarta {
-    grid-area: cuarta;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
-  .container-clientes .quinta {
-    grid-area: quinta;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
-  .container-clientes .sexta {
-    grid-area: sexta;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
-  .container-clientes .septima {
-    grid-area: septima;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
-  .container-clientes .octava {
-    grid-area: octava;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
-  .container-clientes .novena {
-    grid-area: novena;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
-  .container-clientes .decima {
-    grid-area: decima;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
+  .container-clientes .primera,
+  .container-clientes .segunda,
+  .container-clientes .tercera,
+  .container-clientes .cuarta,
+  .container-clientes .quinta,
+  .container-clientes .sexta,
+  .container-clientes .septima,
+  .container-clientes .octava,
+  .container-clientes .novena,
+  .container-clientes .decima,
+  .container-clientes .depri,
   .container-clientes .deseg {
-    grid-area: deseg;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
+    border: solid .2rem black;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: #ffffff; }
+  .container-clientes .primera {
+    grid-area: primera; }
+  .container-clientes .segunda {
+    grid-area: segunda; }
+  .container-clientes .tercera {
+    grid-area: tercera; }
+  .container-clientes .cuarta {
+    grid-area: cuarta; }
+  .container-clientes .quinta {
+    grid-area: quinta; }
+  .container-clientes .sexta {
+    grid-area: sexta; }
+  .container-clientes .septima {
+    grid-area: septima; }
+  .container-clientes .octava {
+    grid-area: octava; }
+  .container-clientes .novena {
+    grid-area: novena; }
+  .container-clientes .decima {
+    grid-area: decima; }
+  .container-clientes .deseg {
+    grid-area: deseg; }
   .container-clientes .depri {
-    grid-area: depri;
-    border: solid 2px black;
-    padding: 3rem;
-    margin: 1rem; }
+    grid-area: depri; }
 
 /* --- Media Queries --- */
 @media screen and (max-width: 768px) {
   .container-grid {
+    gap: 0;
     grid-template-areas: "primera segunda" "primera tercera" "septima septima" "septima septima" "cuarta quinta" "cuarta quinta" "cuarta sexta" "cuarta sexta"; }
   .primera {
     margin: 0%;
-    padding: 2%; }
+    padding: 2%;
+    border: solid .4rem black; }
   .segunda {
     margin: 0%;
-    padding: 2%; }
+    padding: 2%;
+    border: solid .4rem black; }
   .tercera {
     margin: 0%;
-    padding: 2%; }
+    padding: 2%;
+    border: solid .4rem black; }
   .cuarta {
     margin: 0%;
-    padding: 2%; }
+    padding: 2%;
+    border: solid .4rem black; }
   .quinta {
     margin: 0%;
-    padding: 2%; }
+    padding: 2%;
+    border: solid .4rem black; }
   .sexta {
     margin: 0%;
-    padding: 2%; }
+    padding: 2%;
+    border: solid .4rem black; }
   .septima {
     margin: 0%;
-    padding: 2%; }
+    padding: 2%;
+    border: solid .4rem black; }
   .container-clientes {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
