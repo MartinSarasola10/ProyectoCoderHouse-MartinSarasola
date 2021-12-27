@@ -1,5 +1,6 @@
 .titulo-agencia {
     font-size: 4.5rem;
+    font-weight: bolder;
 }
 .fondo-stripes {
     border: solid #dbae1a 1px;
@@ -10,4 +11,17 @@
         #fbfaf6 20px,
         #e0dfd8 40px,
     );
+}
+.imagen-nAgencia {
+    border: solid #FECB22 .3rem;
+}
+.imagen-nAgenciaImagen {
+    border: double #b1b5ba 1.2rem;
+}
+.nuestraA-design {
+    background-color: #171717;
+    color: #FECB22;
+}
+h2 {
+    font-weight: bold;
 }

@@ -44,11 +44,37 @@ header {
   filter: none; }
 
 .titulo-agencia {
-  font-size: 4.5rem; }
+  font-size: 4.5rem;
+  font-weight: bolder; }
 
 .fondo-stripes {
   border: solid #dbae1a 1px;
   background-image: repeating-linear-gradient(135deg, #ecbe28 0px, #FECB22 20px, #fbfaf6 20px, #e0dfd8 40px); }
+
+.imagen-nAgencia {
+  border: solid #FECB22 .3rem; }
+
+.imagen-nAgenciaImagen {
+  border: double #b1b5ba 1.2rem; }
+
+.nuestraA-design {
+  background-color: #171717;
+  color: #FECB22; }
+
+h2 {
+  font-weight: bold; }
+
+.contacto-body {
+  background-color: black; }
+
+h1 {
+  font-size: 1.2rem; }
+
+.contacto-consulta {
+  background-color: white;
+  border: solid #fecb22 .3rem;
+  margin: 2rem;
+  padding: 5rem; }
 
 .container-grid {
   display: grid;
@@ -84,6 +110,9 @@ header {
 
 .imagen-nosotros {
   box-shadow: 3px 5px 5px 2px #00000033; }
+
+h1 {
+  font-size: 2rem; }
 
 .container-clientes {
   border: solid #dbae1a 1px;
@@ -172,4 +201,13 @@ header {
   .container-clientes {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "primera segunda" "tercera cuarta" "quinta sexta" "septima octava" "novena decima" "depri deseg"; } }
+    grid-template-areas: "primera segunda" "tercera cuarta" "quinta sexta" "septima octava" "novena decima" "depri deseg"; }
+  .imagen-nAgencia {
+    width: 300px;
+    height: 200px; }
+  .imagen-Contacto {
+    width: 300px;
+    height: 295px; }
+  .contacto-consulta {
+    margin: .5rem;
+    padding: 1.5rem; } }
