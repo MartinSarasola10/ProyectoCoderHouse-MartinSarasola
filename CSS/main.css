@@ -56,21 +56,25 @@ header {
   border: solid #FECB22 .3rem; }
 
 .imagen-nAgenciaImagen {
-  border: double #dde3eb 1.2rem; }
+  border: outset #686661 .5rem; }
 
 .nuestraA-design {
-  background-color: #272c2c;
-  color: #FECB22; }
+  background-color: #FECB22;
+  color: #2c2b28; }
 
 h2 {
   font-weight: bold; }
 
 .servicios-background {
+  border: solid #9b9999 1px;
   padding: 2px;
   color: #000;
   background-color: #fff;
   opacity: .6;
   border-radius: 20px; }
+
+.card {
+  border: solid #444442 1px; }
 
 .contacto-body {
   background-color: black; }
