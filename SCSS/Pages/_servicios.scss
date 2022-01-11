@@ -41,5 +41,19 @@
     .septima { 
         grid-area: septima; 
     }
-
+}
+.container-grid {
+    &:hover img {
+        filter: brightness(35%);
+    }
+    div {
+        img {
+            transition: .2s;
+            &:hover {
+                transform: scale(1.005);
+                border-radius: 25px;
+                filter: none;
+                }
+        }
+    }
 }

@@ -5,6 +5,7 @@ header {
 .nombres_menu {
     a:hover {
         transform: translateY(-3px) scale(1.15);
+        transition: .4s;
         font-weight: bold;
         filter: none;
     }

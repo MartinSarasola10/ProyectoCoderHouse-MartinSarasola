@@ -7,6 +7,19 @@ h1 {
 .contacto-consulta {
     background-color: white;
     border: solid #fecb22 .3rem;
+    border-radius: 20px;
     margin: 2rem;
     padding: 5rem;
+}
+.boton-consulta {
+    background-color: #000;
+    border: solid black;
+}
+.btn-primary:hover {
+    transform: scale(1.1);
+    transition: .4s;
+    color: #000;
+    background-color: #fecb22;
+    border: solid #fecb22;
+    font-weight: bold;
 }

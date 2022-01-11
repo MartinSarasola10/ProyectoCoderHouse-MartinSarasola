@@ -40,6 +40,7 @@ header {
 
 .nombres_menu a:hover {
   transform: translateY(-3px) scale(1.15);
+  transition: .4s;
   font-weight: bold;
   filter: none; }
 
@@ -55,14 +56,21 @@ header {
   border: solid #FECB22 .3rem; }
 
 .imagen-nAgenciaImagen {
-  border: double #b1b5ba 1.2rem; }
+  border: double #dde3eb 1.2rem; }
 
 .nuestraA-design {
-  background-color: #171717;
+  background-color: #272c2c;
   color: #FECB22; }
 
 h2 {
   font-weight: bold; }
+
+.servicios-background {
+  padding: 2px;
+  color: #000;
+  background-color: #fff;
+  opacity: .6;
+  border-radius: 20px; }
 
 .contacto-body {
   background-color: black; }
@@ -73,8 +81,21 @@ h1 {
 .contacto-consulta {
   background-color: white;
   border: solid #fecb22 .3rem;
+  border-radius: 20px;
   margin: 2rem;
   padding: 5rem; }
+
+.boton-consulta {
+  background-color: #000;
+  border: solid black; }
+
+.btn-primary:hover {
+  transform: scale(1.1);
+  transition: .4s;
+  color: #000;
+  background-color: #fecb22;
+  border: solid #fecb22;
+  font-weight: bold; }
 
 .container-grid {
   display: grid;
@@ -108,8 +129,19 @@ h1 {
   .container-grid .septima {
     grid-area: septima; }
 
+.container-grid:hover img {
+  filter: brightness(35%); }
+
+.container-grid div img {
+  transition: .2s; }
+  .container-grid div img:hover {
+    transform: scale(1.005);
+    border-radius: 25px;
+    filter: none; }
+
 .imagen-nosotros {
-  box-shadow: 3px 5px 5px 2px #00000033; }
+  box-shadow: 3px 5px 5px 2px #00000033;
+  border-radius: 20px; }
 
 h1 {
   font-size: 2rem; }
@@ -164,6 +196,21 @@ h1 {
     grid-area: deseg; }
   .container-clientes .depri {
     grid-area: depri; }
+
+.container-clientes:hover img {
+  filter: brightness(18%);
+  border-radius: 20px; }
+
+.container-clientes div img {
+  display: block;
+  padding: 0 2px;
+  transition: .2s; }
+  .container-clientes div img:hover {
+    transform: translateY(-3px) scale(1.02);
+    transition: 0.2s;
+    filter: none;
+    border: solid black 2px;
+    border-radius: 20px; }
 
 /* --- Media Queries --- */
 @media screen and (max-width: 768px) {
