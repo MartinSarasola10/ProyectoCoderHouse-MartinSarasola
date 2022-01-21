@@ -17,6 +17,7 @@
 }
 .imagen-nAgenciaImagen {
     border: outset #686661 .5rem;
+    border-radius: 20px;
 }
 .nuestraA-design {
     background-color: $color-primario;
@@ -31,8 +32,12 @@ h2 {
     color: #000;
     background-color: #fff;
     opacity: .6;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .card {
     border: solid #444442 1px;
+    border-radius: 10px;
+    .card-img-top {
+        border-radius: 15px;
+    }
 }
