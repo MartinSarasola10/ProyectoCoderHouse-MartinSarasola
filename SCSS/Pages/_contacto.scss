@@ -2,11 +2,11 @@
     background-color: black;
     }
 h1 {
-    font-size: 1.2rem;
+    font-size: $titulo-tamano;
     }
 .contacto-consulta {
     background-color: white;
-    border: solid #fecb22 .3rem;
+    border: solid $color-primario .3rem;
     border-radius: 20px;
     margin: 2rem;
     padding: 5rem;
@@ -19,7 +19,7 @@ h1 {
     transform: scale(1.1);
     transition: .4s;
     color: #000;
-    background-color: #fecb22;
-    border: solid #fecb22;
+    background-color: $color-primario;
+    border: solid $color-primario;
     font-weight: bold;
     }   

@@ -1,6 +1,9 @@
+h1 {
+    font-size: $titulo-tamano;
+}
 .container-grid {
     display: grid;
-    padding: 2%;
+    padding: .5%;
     margin-bottom: .5rem;
     gap: .5rem;
     grid-auto-flow: row;
@@ -16,9 +19,11 @@
     .quinta,
     .sexta,
     .septima {
-        border: solid .5rem black;
-        padding: .2rem;
-        margin: .2rem;
+        border: solid .35rem $color-grisOscuro;
+        padding: .1rem;
+        margin: .1rem;
+        position: relative;
+        background-color: $color-grisOscuro;
     }
     .primera { 
         grid-area: primera;
@@ -41,17 +46,13 @@
     .septima { 
         grid-area: septima; 
     }
-}
-.container-grid {
     &:hover img {
-        filter: brightness(35%);
+        filter: brightness(20%);
     }
     div {
         img {
             transition: .2s;
             &:hover {
-                transform: scale(1.005);
-                border-radius: 25px;
                 filter: none;
                 }
         }

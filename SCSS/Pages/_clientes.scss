@@ -1,12 +1,12 @@
 h1 {
-    font-size: 2rem;
+    font-size: $titulo-tamano;
 }
 .container-clientes {
-    border: solid #dbae1a 1px;
+    border: solid $color-primario 1px;
     background-image: repeating-linear-gradient(
         135deg,
         #ecbe28 0px,
-        #FECB22 20px,
+        $color-primario 20px,
         #fbfaf6 20px,
         #e0dfd8 40px,
     );
@@ -33,9 +33,10 @@ h1 {
         .decima,
         .depri,
         .deseg {
-            border: solid .2rem black;
+            border: solid .2rem $color-grisOscuro;
+            border-radius: 20px;
             padding: 1rem;
-            margin: .5rem;
+            margin: .3rem;
             background-color: #ffffff;
         }
         .primera {
@@ -89,8 +90,8 @@ h1 {
                 transform: translateY(-3px) scale(1.02);
                 transition: 0.2s;
                 filter: none;
-                border: solid black 2px;
-                border-radius: 20px;
+                transform: rotate(360deg);
+                transition: 1s;
                 }
         }
     }

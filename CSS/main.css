@@ -1,3 +1,4 @@
+/* Variables */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;1,500&display=swap");
 * {
@@ -53,7 +54,7 @@ header {
   background-image: repeating-linear-gradient(135deg, #ecbe28 0px, #FECB22 20px, #fbfaf6 20px, #e0dfd8 40px); }
 
 .imagen-nAgencia {
-  border: solid #FECB22 .3rem; }
+  border: solid #FECB22 0.3rem; }
 
 .imagen-nAgenciaImagen {
   border: outset #686661 .5rem; }
@@ -80,11 +81,11 @@ h2 {
   background-color: black; }
 
 h1 {
-  font-size: 1.2rem; }
+  font-size: normal 2rem; }
 
 .contacto-consulta {
   background-color: white;
-  border: solid #fecb22 .3rem;
+  border: solid #FECB22 0.3rem;
   border-radius: 20px;
   margin: 2rem;
   padding: 5rem; }
@@ -97,13 +98,16 @@ h1 {
   transform: scale(1.1);
   transition: .4s;
   color: #000;
-  background-color: #fecb22;
-  border: solid #fecb22;
+  background-color: #FECB22;
+  border: solid #FECB22;
   font-weight: bold; }
+
+h1 {
+  font-size: normal 2rem; }
 
 .container-grid {
   display: grid;
-  padding: 2%;
+  padding: .5%;
   margin-bottom: .5rem;
   gap: .5rem;
   grid-auto-flow: row;
@@ -115,9 +119,11 @@ h1 {
   .container-grid .quinta,
   .container-grid .sexta,
   .container-grid .septima {
-    border: solid .5rem black;
-    padding: .2rem;
-    margin: .2rem; }
+    border: solid 0.35rem #232321;
+    padding: .1rem;
+    margin: .1rem;
+    position: relative;
+    background-color: #232321; }
   .container-grid .primera {
     grid-area: primera; }
   .container-grid .segunda {
@@ -132,26 +138,25 @@ h1 {
     grid-area: sexta; }
   .container-grid .septima {
     grid-area: septima; }
+  .container-grid:hover img {
+    filter: brightness(20%); }
+  .container-grid div img {
+    transition: .2s; }
+    .container-grid div img:hover {
+      filter: none; }
 
-.container-grid:hover img {
-  filter: brightness(35%); }
-
-.container-grid div img {
-  transition: .2s; }
-  .container-grid div img:hover {
-    transform: scale(1.005);
-    border-radius: 25px;
-    filter: none; }
+h1 {
+  font-size: normal 2rem; }
 
 .imagen-nosotros {
   box-shadow: 3px 5px 5px 2px #00000033;
   border-radius: 20px; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: normal 2rem; }
 
 .container-clientes {
-  border: solid #dbae1a 1px;
+  border: solid #FECB22 1px;
   background-image: repeating-linear-gradient(135deg, #ecbe28 0px, #FECB22 20px, #fbfaf6 20px, #e0dfd8 40px);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -172,9 +177,10 @@ h1 {
   .container-clientes .decima,
   .container-clientes .depri,
   .container-clientes .deseg {
-    border: solid .2rem black;
+    border: solid 0.2rem #232321;
+    border-radius: 20px;
     padding: 1rem;
-    margin: .5rem;
+    margin: .3rem;
     background-color: #ffffff; }
   .container-clientes .primera {
     grid-area: primera; }
@@ -213,46 +219,43 @@ h1 {
     transform: translateY(-3px) scale(1.02);
     transition: 0.2s;
     filter: none;
-    border: solid black 2px;
-    border-radius: 20px; }
+    transform: rotate(360deg);
+    transition: 1s; }
 
 /* --- Media Queries --- */
 @media screen and (max-width: 768px) {
   .container-grid {
+    padding: 0%;
     gap: 0;
     grid-template-areas: "primera segunda" "primera tercera" "septima septima" "septima septima" "cuarta quinta" "cuarta quinta" "cuarta sexta" "cuarta sexta"; }
-  .primera {
-    margin: 0%;
-    padding: 2%;
-    border: solid .4rem black; }
-  .segunda {
-    margin: 0%;
-    padding: 2%;
-    border: solid .4rem black; }
-  .tercera {
-    margin: 0%;
-    padding: 2%;
-    border: solid .4rem black; }
-  .cuarta {
-    margin: 0%;
-    padding: 2%;
-    border: solid .4rem black; }
-  .quinta {
-    margin: 0%;
-    padding: 2%;
-    border: solid .4rem black; }
-  .sexta {
-    margin: 0%;
-    padding: 2%;
-    border: solid .4rem black; }
+  .primera,
+  .segunda,
+  .tercera,
+  .cuarta,
+  .quinta,
+  .sexta,
   .septima {
     margin: 0%;
-    padding: 2%;
-    border: solid .4rem black; }
+    padding: .5%;
+    border: solid .1rem black; }
   .container-clientes {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "primera segunda" "tercera cuarta" "quinta sexta" "septima octava" "novena decima" "depri deseg"; }
+    .container-clientes .primera,
+    .container-clientes .segunda,
+    .container-clientes .tercera,
+    .container-clientes .cuarta,
+    .container-clientes .quinta,
+    .container-clientes .sexta,
+    .container-clientes .septima,
+    .container-clientes .octava,
+    .container-clientes .novena,
+    .container-clientes .decima,
+    .container-clientes .depri,
+    .container-clientes .deseg {
+      border: solid 0.1rem #232321;
+      margin: .1rem; }
   .imagen-nAgencia {
     width: 300px;
     height: 200px; }

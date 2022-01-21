@@ -7,19 +7,19 @@
     background-image: repeating-linear-gradient(
         135deg,
         #ecbe28 0px,
-        #FECB22 20px,
+        $color-primario 20px,
         #fbfaf6 20px,
         #e0dfd8 40px,
     );
 }
 .imagen-nAgencia {
-    border: solid #FECB22 .3rem;
+    border: solid $color-primario .3rem;
 }
 .imagen-nAgenciaImagen {
     border: outset #686661 .5rem;
 }
 .nuestraA-design {
-    background-color: #FECB22;
+    background-color: $color-primario;
     color: #2c2b28;
 }
 h2 {

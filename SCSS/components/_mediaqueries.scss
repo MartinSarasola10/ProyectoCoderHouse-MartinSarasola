@@ -1,6 +1,7 @@
 /* --- Media Queries --- */
 @media screen and (max-width: 768px) {
     .container-grid {
+        padding: 0%;
         gap: 0;
         grid-template-areas:
         "primera segunda"
@@ -12,40 +13,16 @@
         "cuarta sexta"
         "cuarta sexta";
         }
-        .primera {
-            margin: 0%;
-            padding: 2%;
-            border: solid .4rem black;
-        }
-        .segunda {
-            margin: 0%;
-            padding: 2%;
-            border: solid .4rem black;
-        }
-        .tercera {
-            margin: 0%;
-            padding: 2%;
-            border: solid .4rem black;
-        }
-        .cuarta {
-            margin: 0%;
-            padding: 2%;
-            border: solid .4rem black;
-        }
-        .quinta {
-            margin: 0%;
-            padding: 2%;
-            border: solid .4rem black;
-        }
-        .sexta {
-            margin: 0%;
-            padding: 2%;
-            border: solid .4rem black;
-        }
+        .primera,
+        .segunda,
+        .tercera,
+        .cuarta,
+        .quinta,
+        .sexta,
         .septima {
             margin: 0%;
-            padding: 2%;
-            border: solid .4rem black;
+            padding: .5%;
+            border: solid .1rem black;
         }
     .container-clientes {
         grid-template-columns: 1fr 1fr;
@@ -57,6 +34,21 @@
         "septima octava"
         "novena decima"
         "depri deseg";
+        .primera,
+        .segunda,
+        .tercera,
+        .cuarta,
+        .quinta,
+        .sexta,
+        .septima,
+        .octava,
+        .novena,
+        .decima,
+        .depri,
+        .deseg {
+            border: solid .1rem $color-grisOscuro;
+            margin: .1rem;
+        }
     }
     .imagen-nAgencia {
         width: 300px;
