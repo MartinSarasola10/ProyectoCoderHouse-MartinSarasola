@@ -71,8 +71,7 @@ h2 {
   border: solid #9b9999 1px;
   padding: 2px;
   color: #000;
-  background-color: #fff;
-  opacity: .6;
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 10px; }
 
 .card {
@@ -81,7 +80,7 @@ h2 {
   .card .card-img-top {
     border-radius: 15px; }
 
-.contacto-body {
+main {
   background-color: black; }
 
 h1 {
@@ -229,6 +228,11 @@ h1 {
     transition: 1s; }
 
 /* --- Media Queries --- */
+@media screen and (max-width: 1400px) {
+  .imagen-nAgencia {
+    width: 600px;
+    height: 400px; } }
+
 @media screen and (max-width: 768px) {
   .container-grid {
     padding: 0%;
@@ -262,12 +266,14 @@ h1 {
     .container-clientes .deseg {
       border: solid 0.1rem #232321;
       margin: .1rem; }
-  .imagen-nAgencia {
-    width: 300px;
-    height: 200px; }
   .imagen-Contacto {
     width: 300px;
     height: 295px; }
   .contacto-consulta {
     margin: .5rem;
     padding: 1.5rem; } }
+
+@media screen and (max-width: 600px) {
+  .imagen-nAgencia {
+    width: 300px;
+    height: 200px; } }

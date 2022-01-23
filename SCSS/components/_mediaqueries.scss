@@ -1,4 +1,10 @@
 /* --- Media Queries --- */
+@media screen and (max-width: 1400px) {
+    .imagen-nAgencia {
+        width: 600px;
+        height: 400px;
+    }
+}
 @media screen and (max-width: 768px) {
     .container-grid {
         padding: 0%;
@@ -50,10 +56,6 @@
             margin: .1rem;
         }
     }
-    .imagen-nAgencia {
-        width: 300px;
-        height: 200px;
-    }
     .imagen-Contacto {
         width: 300px;
         height: 295px;
@@ -61,5 +63,11 @@
     .contacto-consulta {
         margin: .5rem;
         padding: 1.5rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .imagen-nAgencia {
+        width: 300px;
+        height: 200px;
     }
 }
