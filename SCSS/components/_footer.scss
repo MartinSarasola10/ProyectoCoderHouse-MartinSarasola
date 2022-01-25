@@ -1,4 +1,8 @@
 footer {
+    font-family: rubik;
+    ol, ul {
+        padding-left: 0; z-index:1;
+    }
     .redes-container {
         display: flex;
         align-items: center;
@@ -29,5 +33,16 @@ footer {
                 }
             }
         }
+    }
+}
+.botonArriba {
+    a {
+        font-size: 2rem;
+        color: black; z-index: 2;
+        text-decoration: none; z-index: 2;
+        }
+    i:hover {
+        transition: .2s;
+        transform: scale(1.3);
     }
 }
